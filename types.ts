@@ -1,4 +1,3 @@
-// FIX: Add missing import for React.
 import React from 'react';
 
 export interface Category {
@@ -20,17 +19,6 @@ export interface Wallpaper {
   imageUrl: string;
   categoryId: string;
   premium: boolean;
-}
-
-export interface GroundingSource {
-  uri: string;
-  title: string;
-}
-
-export interface DailyQuote {
-  text: string;
-  author: string;
-  sources: GroundingSource[];
 }
 
 export interface GeneratedQuote {
